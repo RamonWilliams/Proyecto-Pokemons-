@@ -1,0 +1,94 @@
+
+ body{
+     background-image: url("https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/noticias-cine/como-viven-los-pokemon-dentro-de-las-pokeballs/117318589-1-esl-ES/Como-viven-los-Pokemon-dentro-de-las-Pokeballs.jpg?crop=1xw:0.8178913738019169xh;center,top&resize=1200:*") ;
+     background-attachment: fixed;      
+     background-position-x: center; 
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    nav{
+        margin: auto 60px;
+    }
+ul{
+    display:  flex ;
+    justify-content: space-evenly;
+    border: 1px solid;
+    padding: 40px;
+    border-radius: 20px;
+    background-color:rgba(223, 219, 20, 0.63);
+    padding-left:5px;
+    padding-right: 5px;   
+}
+
+ a{
+   font-size: 24px;
+   text-decoration: none;
+   color:rgb(41, 30, 30);
+   border:1px solid black;
+   padding: 12px;
+   background-color:rgba(29, 27, 139, 0.527);
+   border: 12px;
+     
+}
+
+.pokemon-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;    
+}
+
+.image-container{  
+    height: 460px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+   background-color:rgba(255, 231, 10, 0.63);
+   
+}
+.image-container img{
+    width: 40%; 
+    height: 160px;
+}
+h2{
+    color:rgb(199, 22, 37) ;
+}
+h3{
+    color: rgb(161, 13, 149);
+    font-size: 20px;
+    
+}
+p{
+   color: rgb(39, 29, 15);
+    font-size: 18px;
+    
+}
+@media only screen and (max-width: 768px){
+    a{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .image-container{
+        height: 220px;
+        width: 250px;
+    }
+}@media only screen and(max-width:576px){
+    a{
+        font-size: 12px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .image-container{
+        height: 220px;
+        width: 200px;
+    }
+    p{
+        display: none;
+    }
+}
